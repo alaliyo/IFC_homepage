@@ -1,0 +1,40 @@
+header {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+
+.header {
+    height: 70px;
+    width: 1000px;
+    z-index: 6000;
+    border-bottom: 2px solid #cccccc;
+    background-color: white;
+    box-shadow: 1px 1px 3px gainsboro;
+    margin: 0 auto;
+}
+
+/*logo css*/
+.logoBox {
+    height: 100%;
+    width: 145px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logoBox:hover {
+    background-color: rgb(240, 240, 240);
+    transition-duration: 1s;
+}
+
+.logoBox img {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.logoBox span {
+    font-weight: bold;
+    line-height: 20px;
+}
